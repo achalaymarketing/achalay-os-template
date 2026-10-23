@@ -1,0 +1,36 @@
+# Configuración, credenciales y estado local
+.env
+.env.*
+*.env
+auth.json
+credentials*.json
+*token*.json
+*.pem
+*.key
+*.p12
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+.obsidian/
+.obsidian.backup*/
+.hermes/
+.codex/
+.claude/
+.claudian/
+.hub/
+**/.hub/
+**/.bundled_manifest
+**/*.usage.json*
+
+# Archivos locales y temporales
+.DS_Store
+desktop.ini
+*.log
+*.tmp
+*.bak
+*.zip
+__pycache__/
+.cache/
+.venv/
+node_modules/
